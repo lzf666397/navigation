@@ -1,0 +1,3 @@
+[console_scripts]
+tcp_server = ros_serial2wifi.tcpserver:main
+udp_server = ros_serial2wifi.udpserver:main

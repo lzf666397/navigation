@@ -1,0 +1,332 @@
+[0.009s] Invoking command in '/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/lzf/chapt9/fishbot_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzf/chapt9/fishbot_ws/install/micro_ros_msgs:/home/lzf/ros2_rmf_ws/install/rmf_workcell_msgs:/home/lzf/ros2_rmf_ws/install/rmf_demos_gz:/home/lzf/ros2_rmf_ws/install/rmf_demos:/home/lzf/ros2_rmf_ws/install/rmf_fleet_adapter_python:/home/lzf/ros2_rmf_ws/install/rmf_fleet_adapter:/home/lzf/ros2_rmf_ws/install/rmf_task_ros2:/home/lzf/ros2_rmf_ws/install/rmf_websocket:/home/lzf/ros2_rmf_ws/install/rmf_visualization:/home/lzf/ros2_rmf_ws/install/rmf_visualization_schedule:/home/lzf/ros2_rmf_ws/install/rmf_visualization_rviz2_plugins:/home/lzf/ros2_rmf_ws/install/rmf_visualization_obstacles:/home/lzf/ros2_rmf_ws/install/rmf_visualization_navgraphs:/home/lzf/ros2_rmf_ws/install/rmf_visualization_floorplans:/home/lzf/ros2_rmf_ws/install/rmf_visualization_fleet_states:/home/lzf/ros2_rmf_ws/install/rmf_visualization_msgs:/home/lzf/ros2_rmf_ws/install/rmf_traffic_ros2:/home/lzf/ros2_rmf_ws/install/rmf_task_sequence:/home/lzf/ros2_rmf_ws/install/rmf_task:/home/lzf/ros2_rmf_ws/install/rmf_battery:/home/lzf/ros2_rmf_ws/install/rmf_traffic:/home/lzf/ros2_rmf_ws/install/rmf_utils:/home/lzf/ros2_rmf_ws/install/rmf_traffic_msgs:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor_test_maps:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor_assets:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor:/home/lzf/ros2_rmf_ws/install/rmf_task_msgs:/home/lzf/ros2_rmf_ws/install/rmf_site_map_msgs:/home/lzf/ros2_rmf_ws/install/rmf_scheduler_msgs:/home/lzf/ros2_rmf_ws/install/rmf_robot_sim_gz_plugins:/home/lzf/ros2_rmf_ws/install/rmf_robot_sim_common:/home/lzf/ros2_rmf_ws/install/rmf_obstacle_msgs:/home/lzf/ros2_rmf_ws/install/rmf_building_sim_gz_plugins:/home/lzf/ros2_rmf_ws/install/rmf_lift_msgs:/home/lzf/ros2_rmf_ws/install/rmf_ingestor_msgs:/home/lzf/ros2_rmf_ws/install/rmf_fleet_msgs:/home/lzf/ros2_rmf_ws/install/rmf_door_msgs:/home/lzf/ros2_rmf_ws/install/rmf_demos_maps:/home/lzf/ros2_rmf_ws/install/rmf_demos_assets:/home/lzf/ros2_rmf_ws/install/rmf_charger_msgs:/home/lzf/ros2_rmf_ws/install/rmf_api_msgs:/home/lzf/ros2_rmf_ws/install/pybind11_json_vendor:/home/lzf/ros2_rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/lzf/ros2_rmf_ws/install/rmf_demos_fleet_adapter:/home/lzf/ros2_rmf_ws/install/rmf_visualization_building_systems:/home/lzf/ros2_rmf_ws/install/rmf_traffic_examples:/home/lzf/ros2_rmf_ws/install/rmf_demos_bridges:/home/lzf/ros2_rmf_ws/install/rmf_demos_tasks:/home/lzf/ros2_rmf_ws/install/rmf_building_map_tools:/home/lzf/ros2_rmf_ws/install/rmf_charging_schedule:/home/lzf/ros2_rmf_ws/install/rmf_dispenser_msgs:/home/lzf/ros2_rmf_ws/install/rmf_building_map_msgs:/home/lzf/ros2_rmf_ws/install/case_study2_pointcloud_viz:/home/lzf/ros2_rmf_ws/install/case_study2_gazebo:/home/lzf/ros2_free_fleet_ws/install/free_fleet:/opt/ros/jazzy:/home/lzf/ros2_rmf_ws/install/menge_vendor:/home/lzf/ros2_rmf_ws/install/ament_cmake_catch2:/home/lzf/ros2_rmf_map_ws/install/rmf_burger_maps:/home/lzf/ros2_free_fleet_ws/install/free_fleet_examples:/home/lzf/ros2_free_fleet_ws/install/free_fleet_adapter:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lzf/chapt9/fishbot_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lzf/chapt9/fishbot_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lzf/chapt9/fishbot_ws/build/micro_ros_agent -- -j28 -l28
+[0.050s] [  6%] [34m[1mPerforming update step for 'xrceagent'[0m
+[0.071s] [ 12%] [34m[1mNo patch step for 'xrceagent'[0m
+[0.086s] [ 18%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[0.095s] loading initial cache file /home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[0.099s] -- Setting build type to 'Release' as none was specified.
+[0.101s] -- Found TinyXML2: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.108s] -- Configuring done (0.0s)
+[0.113s] -- Generating done (0.0s)
+[0.113s] -- Build files have been written to: /home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[0.128s] [ 25%] [34m[1mPerforming build step for 'xrceagent'[0m
+[0.200s] [  2%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o[0m
+[0.201s] [  9%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o[0m
+[0.201s] [  9%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o[0m
+[0.201s] [  9%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o[0m
+[0.201s] [ 11%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o[0m
+[5.375s] [ 14%] [32m[1mLinking CXX shared library libmicroxrcedds_agent.so[0m
+[5.500s] [100%] Built target microxrcedds_agent
+[5.515s] [ 31%] [34m[1mPerforming install step for 'xrceagent'[0m
+[5.571s] [100%] Built target microxrcedds_agent
+[5.584s] [36mInstall the project...[0m
+[5.591s] -- Install configuration: "Release"
+[5.591s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.3
+[5.592s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4
+[5.592s] -- Set non-toolchain portion of runtime path of "/home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.3" to ""
+[5.592s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so
+[5.592s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent
+[5.592s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp
+[5.592s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/datawriter
+[5.592s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp
+[5.592s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/topic
+[5.592s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp
+[5.592s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/message
+[5.592s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp
+[5.592s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp
+[5.592s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp
+[5.592s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/subscriber
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/processor
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/datareader
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/serial
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/udp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp
+[5.593s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/can
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/util
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/custom
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/participant
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/types
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/logger
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/utils
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp
+[5.594s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/scheduler
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/publisher
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/reader
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/requester
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/middleware
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp
+[5.595s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/p2p
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/object
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/client
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/client/session
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/replier
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/uxr/agent/config.hpp
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake
+[5.596s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent
+[5.596s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/lib
+[5.596s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/lib/libspdlog.a
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/lib/pkgconfig
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/lib/pkgconfig/spdlog.pc
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/lib/cmake
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/lib/cmake/spdlog
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigVersion.cmake
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfig.cmake
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets.cmake
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+[5.597s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/async.h
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/xchar.h
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/bundled
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/os.h
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/xchar.h
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/locale.h
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format-inl.h
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/color.h
+[5.597s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/chrono.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ostream.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/printf.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ranges.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/args.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/compile.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/core.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/ostr.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/fmt.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/chrono.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/compile.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fmt/bin_to_hex.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/pattern_formatter-inl.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/tcp_sink.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks-inl.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/sink-inl.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/ostream_sink.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/android_sink.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink-inl.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/qt_sinks.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/hourly_file_sink.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/base_sink.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/daily_file_sink.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink-inl.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink.h
+[5.598s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/systemd_sink.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/win_eventlog_sink.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/sink.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink-inl.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/msvc_sink.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/dist_sink.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/dup_filter_sink.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink-inl.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/ringbuffer_sink.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/mongo_sink.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/null_sink.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks-inl.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/base_sink-inl.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/sinks/syslog_sink.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/stopwatch.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/spdlog-inl.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/logger.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/fwd.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/common.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/logger-inl.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/cfg
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/cfg/env.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/cfg/helpers-inl.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/cfg/argv.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/cfg/helpers.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/async_logger.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/pattern_formatter.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/os.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/log_msg.h
+[5.599s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/null_mutex.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/registry.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/fmt_helper.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/windows_include.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/periodic_worker.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/tcp_client.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/backtracer-inl.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/os-inl.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/log_msg-inl.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/synchronous_factory.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer-inl.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/thread_pool.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/periodic_worker-inl.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/thread_pool-inl.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/mpmc_blocking_q.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/circular_q.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/console_globals.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/file_helper-inl.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/registry-inl.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/tcp_client-windows.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/file_helper.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/details/backtracer.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/tweakme.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/spdlog.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/version.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/async_logger-inl.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/formatter.h
+[5.600s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/include/spdlog/common-inl.h
+[5.613s] [ 37%] [34m[1mCompleted 'xrceagent'[0m
+[5.639s] [ 50%] Built target xrceagent
+[5.651s] [ 56%] [34m[1mCreating directories for 'micro_ros_agent'[0m
+[5.667s] [ 62%] [34m[1mNo download step for 'micro_ros_agent'[0m
+[5.682s] [ 68%] [34m[1mNo update step for 'micro_ros_agent'[0m
+[5.699s] [ 75%] [34m[1mNo patch step for 'micro_ros_agent'[0m
+[5.714s] [ 81%] [34m[1mPerforming configure step for 'micro_ros_agent'[0m
+[5.719s] loading initial cache file /home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake
+[5.723s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.830s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.970s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.974s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.040s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.041s] -- Found Threads: TRUE  
+[6.050s] -- Found rosidl_cmake: 4.6.7 (/opt/ros/jazzy/share/rosidl_cmake/cmake)
+[6.052s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[6.062s] -- Found fastrtps_cmake_module: 3.6.3 (/opt/ros/jazzy/share/fastrtps_cmake_module/cmake)
+[6.065s] -- Found rmw_dds_common: 3.1.1 (/opt/ros/jazzy/share/rmw_dds_common/cmake)
+[6.093s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[6.105s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[6.111s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.126s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.143s] -- Found rmw_fastrtps_shared_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_shared_cpp/cmake)
+[6.164s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.166s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.169s] -- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[6.169s] -- Found micro_ros_msgs: 5.0.2 (/home/lzf/chapt9/fishbot_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+[6.232s] -- Configuring done (0.5s)
+[6.236s] -- Generating done (0.0s)
+[6.238s] -- Build files have been written to: /home/lzf/chapt9/fishbot_ws/build/micro_ros_agent
+[6.255s] [ 87%] [34m[1mPerforming build step for 'micro_ros_agent'[0m
+[6.286s] [ 16%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o[0m
+[6.286s] [ 33%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o[0m
+[6.286s] [ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o[0m
+[6.287s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o[0m
+[6.287s] [ 83%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o[0m
+[7.887s] [100%] [32m[1mLinking CXX executable micro_ros_agent[0m
+[8.032s] [100%] Built target micro_ros_agent
+[8.046s] [34m[1mNo install step for 'micro_ros_agent'[0m
+[8.064s] [34m[1mCompleted 'micro_ros_agent'[0m
+[8.091s] Built target micro_ros_agent
+[8.098s] Invoked command in '/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/lzf/chapt9/fishbot_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzf/chapt9/fishbot_ws/install/micro_ros_msgs:/home/lzf/ros2_rmf_ws/install/rmf_workcell_msgs:/home/lzf/ros2_rmf_ws/install/rmf_demos_gz:/home/lzf/ros2_rmf_ws/install/rmf_demos:/home/lzf/ros2_rmf_ws/install/rmf_fleet_adapter_python:/home/lzf/ros2_rmf_ws/install/rmf_fleet_adapter:/home/lzf/ros2_rmf_ws/install/rmf_task_ros2:/home/lzf/ros2_rmf_ws/install/rmf_websocket:/home/lzf/ros2_rmf_ws/install/rmf_visualization:/home/lzf/ros2_rmf_ws/install/rmf_visualization_schedule:/home/lzf/ros2_rmf_ws/install/rmf_visualization_rviz2_plugins:/home/lzf/ros2_rmf_ws/install/rmf_visualization_obstacles:/home/lzf/ros2_rmf_ws/install/rmf_visualization_navgraphs:/home/lzf/ros2_rmf_ws/install/rmf_visualization_floorplans:/home/lzf/ros2_rmf_ws/install/rmf_visualization_fleet_states:/home/lzf/ros2_rmf_ws/install/rmf_visualization_msgs:/home/lzf/ros2_rmf_ws/install/rmf_traffic_ros2:/home/lzf/ros2_rmf_ws/install/rmf_task_sequence:/home/lzf/ros2_rmf_ws/install/rmf_task:/home/lzf/ros2_rmf_ws/install/rmf_battery:/home/lzf/ros2_rmf_ws/install/rmf_traffic:/home/lzf/ros2_rmf_ws/install/rmf_utils:/home/lzf/ros2_rmf_ws/install/rmf_traffic_msgs:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor_test_maps:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor_assets:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor:/home/lzf/ros2_rmf_ws/install/rmf_task_msgs:/home/lzf/ros2_rmf_ws/install/rmf_site_map_msgs:/home/lzf/ros2_rmf_ws/install/rmf_scheduler_msgs:/home/lzf/ros2_rmf_ws/install/rmf_robot_sim_gz_plugins:/home/lzf/ros2_rmf_ws/install/rmf_robot_sim_common:/home/lzf/ros2_rmf_ws/install/rmf_obstacle_msgs:/home/lzf/ros2_rmf_ws/install/rmf_building_sim_gz_plugins:/home/lzf/ros2_rmf_ws/install/rmf_lift_msgs:/home/lzf/ros2_rmf_ws/install/rmf_ingestor_msgs:/home/lzf/ros2_rmf_ws/install/rmf_fleet_msgs:/home/lzf/ros2_rmf_ws/install/rmf_door_msgs:/home/lzf/ros2_rmf_ws/install/rmf_demos_maps:/home/lzf/ros2_rmf_ws/install/rmf_demos_assets:/home/lzf/ros2_rmf_ws/install/rmf_charger_msgs:/home/lzf/ros2_rmf_ws/install/rmf_api_msgs:/home/lzf/ros2_rmf_ws/install/pybind11_json_vendor:/home/lzf/ros2_rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/lzf/ros2_rmf_ws/install/rmf_demos_fleet_adapter:/home/lzf/ros2_rmf_ws/install/rmf_visualization_building_systems:/home/lzf/ros2_rmf_ws/install/rmf_traffic_examples:/home/lzf/ros2_rmf_ws/install/rmf_demos_bridges:/home/lzf/ros2_rmf_ws/install/rmf_demos_tasks:/home/lzf/ros2_rmf_ws/install/rmf_building_map_tools:/home/lzf/ros2_rmf_ws/install/rmf_charging_schedule:/home/lzf/ros2_rmf_ws/install/rmf_dispenser_msgs:/home/lzf/ros2_rmf_ws/install/rmf_building_map_msgs:/home/lzf/ros2_rmf_ws/install/case_study2_pointcloud_viz:/home/lzf/ros2_rmf_ws/install/case_study2_gazebo:/home/lzf/ros2_free_fleet_ws/install/free_fleet:/opt/ros/jazzy:/home/lzf/ros2_rmf_ws/install/menge_vendor:/home/lzf/ros2_rmf_ws/install/ament_cmake_catch2:/home/lzf/ros2_rmf_map_ws/install/rmf_burger_maps:/home/lzf/ros2_free_fleet_ws/install/free_fleet_examples:/home/lzf/ros2_free_fleet_ws/install/free_fleet_adapter:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lzf/chapt9/fishbot_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lzf/chapt9/fishbot_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lzf/chapt9/fishbot_ws/build/micro_ros_agent -- -j28 -l28
+[8.099s] Invoking command in '/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/lzf/chapt9/fishbot_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzf/chapt9/fishbot_ws/install/micro_ros_msgs:/home/lzf/ros2_rmf_ws/install/rmf_workcell_msgs:/home/lzf/ros2_rmf_ws/install/rmf_demos_gz:/home/lzf/ros2_rmf_ws/install/rmf_demos:/home/lzf/ros2_rmf_ws/install/rmf_fleet_adapter_python:/home/lzf/ros2_rmf_ws/install/rmf_fleet_adapter:/home/lzf/ros2_rmf_ws/install/rmf_task_ros2:/home/lzf/ros2_rmf_ws/install/rmf_websocket:/home/lzf/ros2_rmf_ws/install/rmf_visualization:/home/lzf/ros2_rmf_ws/install/rmf_visualization_schedule:/home/lzf/ros2_rmf_ws/install/rmf_visualization_rviz2_plugins:/home/lzf/ros2_rmf_ws/install/rmf_visualization_obstacles:/home/lzf/ros2_rmf_ws/install/rmf_visualization_navgraphs:/home/lzf/ros2_rmf_ws/install/rmf_visualization_floorplans:/home/lzf/ros2_rmf_ws/install/rmf_visualization_fleet_states:/home/lzf/ros2_rmf_ws/install/rmf_visualization_msgs:/home/lzf/ros2_rmf_ws/install/rmf_traffic_ros2:/home/lzf/ros2_rmf_ws/install/rmf_task_sequence:/home/lzf/ros2_rmf_ws/install/rmf_task:/home/lzf/ros2_rmf_ws/install/rmf_battery:/home/lzf/ros2_rmf_ws/install/rmf_traffic:/home/lzf/ros2_rmf_ws/install/rmf_utils:/home/lzf/ros2_rmf_ws/install/rmf_traffic_msgs:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor_test_maps:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor_assets:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor:/home/lzf/ros2_rmf_ws/install/rmf_task_msgs:/home/lzf/ros2_rmf_ws/install/rmf_site_map_msgs:/home/lzf/ros2_rmf_ws/install/rmf_scheduler_msgs:/home/lzf/ros2_rmf_ws/install/rmf_robot_sim_gz_plugins:/home/lzf/ros2_rmf_ws/install/rmf_robot_sim_common:/home/lzf/ros2_rmf_ws/install/rmf_obstacle_msgs:/home/lzf/ros2_rmf_ws/install/rmf_building_sim_gz_plugins:/home/lzf/ros2_rmf_ws/install/rmf_lift_msgs:/home/lzf/ros2_rmf_ws/install/rmf_ingestor_msgs:/home/lzf/ros2_rmf_ws/install/rmf_fleet_msgs:/home/lzf/ros2_rmf_ws/install/rmf_door_msgs:/home/lzf/ros2_rmf_ws/install/rmf_demos_maps:/home/lzf/ros2_rmf_ws/install/rmf_demos_assets:/home/lzf/ros2_rmf_ws/install/rmf_charger_msgs:/home/lzf/ros2_rmf_ws/install/rmf_api_msgs:/home/lzf/ros2_rmf_ws/install/pybind11_json_vendor:/home/lzf/ros2_rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/lzf/ros2_rmf_ws/install/rmf_demos_fleet_adapter:/home/lzf/ros2_rmf_ws/install/rmf_visualization_building_systems:/home/lzf/ros2_rmf_ws/install/rmf_traffic_examples:/home/lzf/ros2_rmf_ws/install/rmf_demos_bridges:/home/lzf/ros2_rmf_ws/install/rmf_demos_tasks:/home/lzf/ros2_rmf_ws/install/rmf_building_map_tools:/home/lzf/ros2_rmf_ws/install/rmf_charging_schedule:/home/lzf/ros2_rmf_ws/install/rmf_dispenser_msgs:/home/lzf/ros2_rmf_ws/install/rmf_building_map_msgs:/home/lzf/ros2_rmf_ws/install/case_study2_pointcloud_viz:/home/lzf/ros2_rmf_ws/install/case_study2_gazebo:/home/lzf/ros2_free_fleet_ws/install/free_fleet:/opt/ros/jazzy:/home/lzf/ros2_rmf_ws/install/menge_vendor:/home/lzf/ros2_rmf_ws/install/ament_cmake_catch2:/home/lzf/ros2_rmf_map_ws/install/rmf_burger_maps:/home/lzf/ros2_free_fleet_ws/install/free_fleet_examples:/home/lzf/ros2_free_fleet_ws/install/free_fleet_adapter:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lzf/chapt9/fishbot_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lzf/chapt9/fishbot_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lzf/chapt9/fishbot_ws/build/micro_ros_agent
+[8.104s] -- Install configuration: ""
+[8.104s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[8.104s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[8.104s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[8.104s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[8.104s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[8.104s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[8.104s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[8.104s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[8.104s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[8.104s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[8.104s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[8.104s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[8.104s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.104s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[8.104s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[8.104s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[8.104s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[8.105s] -- Set non-toolchain portion of runtime path of "/home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""
+[8.105s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/micro_ros_agent/launch
+[8.105s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[8.106s] Invoked command in '/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/lzf/chapt9/fishbot_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzf/chapt9/fishbot_ws/install/micro_ros_msgs:/home/lzf/ros2_rmf_ws/install/rmf_workcell_msgs:/home/lzf/ros2_rmf_ws/install/rmf_demos_gz:/home/lzf/ros2_rmf_ws/install/rmf_demos:/home/lzf/ros2_rmf_ws/install/rmf_fleet_adapter_python:/home/lzf/ros2_rmf_ws/install/rmf_fleet_adapter:/home/lzf/ros2_rmf_ws/install/rmf_task_ros2:/home/lzf/ros2_rmf_ws/install/rmf_websocket:/home/lzf/ros2_rmf_ws/install/rmf_visualization:/home/lzf/ros2_rmf_ws/install/rmf_visualization_schedule:/home/lzf/ros2_rmf_ws/install/rmf_visualization_rviz2_plugins:/home/lzf/ros2_rmf_ws/install/rmf_visualization_obstacles:/home/lzf/ros2_rmf_ws/install/rmf_visualization_navgraphs:/home/lzf/ros2_rmf_ws/install/rmf_visualization_floorplans:/home/lzf/ros2_rmf_ws/install/rmf_visualization_fleet_states:/home/lzf/ros2_rmf_ws/install/rmf_visualization_msgs:/home/lzf/ros2_rmf_ws/install/rmf_traffic_ros2:/home/lzf/ros2_rmf_ws/install/rmf_task_sequence:/home/lzf/ros2_rmf_ws/install/rmf_task:/home/lzf/ros2_rmf_ws/install/rmf_battery:/home/lzf/ros2_rmf_ws/install/rmf_traffic:/home/lzf/ros2_rmf_ws/install/rmf_utils:/home/lzf/ros2_rmf_ws/install/rmf_traffic_msgs:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor_test_maps:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor_assets:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor:/home/lzf/ros2_rmf_ws/install/rmf_task_msgs:/home/lzf/ros2_rmf_ws/install/rmf_site_map_msgs:/home/lzf/ros2_rmf_ws/install/rmf_scheduler_msgs:/home/lzf/ros2_rmf_ws/install/rmf_robot_sim_gz_plugins:/home/lzf/ros2_rmf_ws/install/rmf_robot_sim_common:/home/lzf/ros2_rmf_ws/install/rmf_obstacle_msgs:/home/lzf/ros2_rmf_ws/install/rmf_building_sim_gz_plugins:/home/lzf/ros2_rmf_ws/install/rmf_lift_msgs:/home/lzf/ros2_rmf_ws/install/rmf_ingestor_msgs:/home/lzf/ros2_rmf_ws/install/rmf_fleet_msgs:/home/lzf/ros2_rmf_ws/install/rmf_door_msgs:/home/lzf/ros2_rmf_ws/install/rmf_demos_maps:/home/lzf/ros2_rmf_ws/install/rmf_demos_assets:/home/lzf/ros2_rmf_ws/install/rmf_charger_msgs:/home/lzf/ros2_rmf_ws/install/rmf_api_msgs:/home/lzf/ros2_rmf_ws/install/pybind11_json_vendor:/home/lzf/ros2_rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/lzf/ros2_rmf_ws/install/rmf_demos_fleet_adapter:/home/lzf/ros2_rmf_ws/install/rmf_visualization_building_systems:/home/lzf/ros2_rmf_ws/install/rmf_traffic_examples:/home/lzf/ros2_rmf_ws/install/rmf_demos_bridges:/home/lzf/ros2_rmf_ws/install/rmf_demos_tasks:/home/lzf/ros2_rmf_ws/install/rmf_building_map_tools:/home/lzf/ros2_rmf_ws/install/rmf_charging_schedule:/home/lzf/ros2_rmf_ws/install/rmf_dispenser_msgs:/home/lzf/ros2_rmf_ws/install/rmf_building_map_msgs:/home/lzf/ros2_rmf_ws/install/case_study2_pointcloud_viz:/home/lzf/ros2_rmf_ws/install/case_study2_gazebo:/home/lzf/ros2_free_fleet_ws/install/free_fleet:/opt/ros/jazzy:/home/lzf/ros2_rmf_ws/install/menge_vendor:/home/lzf/ros2_rmf_ws/install/ament_cmake_catch2:/home/lzf/ros2_rmf_map_ws/install/rmf_burger_maps:/home/lzf/ros2_free_fleet_ws/install/free_fleet_examples:/home/lzf/ros2_free_fleet_ws/install/free_fleet_adapter:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/lzf/chapt9/fishbot_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lzf/chapt9/fishbot_ws/install/micro_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lzf/chapt9/fishbot_ws/build/micro_ros_agent

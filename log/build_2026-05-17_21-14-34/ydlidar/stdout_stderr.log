@@ -1,0 +1,194 @@
+[  8%] Built target ydlidar_client
+[ 12%] Building CXX object CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o
+In file included from /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/v8stdint.h:142,
+                 from /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:4,
+                 from /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/src/CYdLidar.h:48,
+                 from /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:16:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h: In function ‘bool ydlidar::core::base::fileExists(const std::string&)’:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_ino’ [-Wmissing-field-initializers]
+  183 |   struct stat info = {0};
+      |                        ^
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_nlink’ [-Wmissing-field-initializers]
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_mode’ [-Wmissing-field-initializers]
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_uid’ [-Wmissing-field-initializers]
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_gid’ [-Wmissing-field-initializers]
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::__pad0’ [-Wmissing-field-initializers]
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_rdev’ [-Wmissing-field-initializers]
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_size’ [-Wmissing-field-initializers]
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_blksize’ [-Wmissing-field-initializers]
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_blocks’ [-Wmissing-field-initializers]
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_atim’ [-Wmissing-field-initializers]
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_mtim’ [-Wmissing-field-initializers]
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_ctim’ [-Wmissing-field-initializers]
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::__glibc_reserved’ [-Wmissing-field-initializers]
+In file included from /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:5:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h: In static member function ‘static ydlidar::core::base::Thread ydlidar::core::base::Thread::createThread(thread_proc_t, void*)’:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:54:42: warning: cast between incompatible function types from ‘thread_proc_t’ {aka ‘long unsigned int (*)(void*)’} to ‘void* (*)(void*)’ [-Wcast-function-type]
+   54 |                                    NULL, (void *(*)(void *))proc,
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h: In member function ‘int ydlidar::core::base::Thread::join(long unsigned int)’:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:135:46: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 2 has type ‘_size_t’ {aka ‘long unsigned int’} [-Wformat=]
+  135 |           printf("[YDLIDAR DEBUG] Thread [0x%X] ready to cancel[%d]\n", _handle, s);
+      |                                             ~^                          ~~~~~~~
+      |                                              |                          |
+      |                                              unsigned int               _size_t {aka long unsigned int}
+      |                                             %lX
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:137:46: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 2 has type ‘_size_t’ {aka ‘long unsigned int’} [-Wformat=]
+  137 |           printf("[YDLIDAR DEBUG] Thread [0x%X] ready to cancel[%d] time[%u]\n",
+      |                                             ~^
+      |                                              |
+      |                                              unsigned int
+      |                                             %lX
+  138 |             _handle, s, getms() - t);
+      |             ~~~~~~~                           
+      |             |
+      |             _size_t {aka long unsigned int}
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:141:42: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 2 has type ‘_size_t’ {aka ‘long unsigned int’} [-Wformat=]
+  141 |             printf("[YDLIDAR] Thread [0x%X] has been canceled in other thread\n", _handle);
+      |                                         ~^                                        ~~~~~~~
+      |                                          |                                        |
+      |                                          unsigned int                             _size_t {aka long unsigned int}
+      |                                         %lX
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:146:74: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 3 has type ‘_size_t’ {aka ‘long unsigned int’} [-Wformat=]
+  146 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x%X] cancelled!\n", _handle);
+      |                                                                         ~^                 ~~~~~~~
+      |                                                                          |                 |
+      |                                                                          unsigned int      _size_t {aka long unsigned int}
+      |                                                                         %lX
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:150:40: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 2 has type ‘_size_t’ {aka ‘long unsigned int’} [-Wformat=]
+  150 |           printf("[YDLIDAR] Thread [0x%X] has been canceled\n", _handle);
+      |                                       ~^                        ~~~~~~~
+      |                                        |                        |
+      |                                        unsigned int             _size_t {aka long unsigned int}
+      |                                       %lX
+In file included from /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:8:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/ydlidar_protocol.h: At global scope:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/ydlidar_protocol.h:291:22: warning: missing initializer for member ‘device_info::firmware_version’ [-Wmissing-field-initializers]
+  291 |   device_info di = {0};
+      |                      ^
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/ydlidar_protocol.h:291:22: warning: missing initializer for member ‘device_info::hardware_version’ [-Wmissing-field-initializers]
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/ydlidar_protocol.h:291:22: warning: missing initializer for member ‘device_info::serialnum’ [-Wmissing-field-initializers]
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual bool ydlidar::core::common::DriverInterface::getDeviceInfoEx(device_info&, int)’:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:285:59: warning: unused parameter ‘type’ [-Wunused-parameter]
+  285 |         virtual bool getDeviceInfoEx(device_info &di, int type=EPT_Module)
+      |                                                       ~~~~^~~~~~~~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::getScanFrequency(scan_frequency&, uint32_t)’:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:340:59: warning: unused parameter ‘frequency’ [-Wunused-parameter]
+  340 |         virtual result_t getScanFrequency(scan_frequency &frequency,
+      |                                           ~~~~~~~~~~~~~~~~^~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:341:52: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  341 |                                           uint32_t timeout = DEFAULT_TIMEOUT)
+      |                                           ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyAdd(scan_frequency&, uint32_t)’:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:355:62: warning: unused parameter ‘frequency’ [-Wunused-parameter]
+  355 |         virtual result_t setScanFrequencyAdd(scan_frequency &frequency,
+      |                                              ~~~~~~~~~~~~~~~~^~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:356:55: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  356 |                                              uint32_t timeout = DEFAULT_TIMEOUT)
+      |                                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyDis(scan_frequency&, uint32_t)’:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:370:62: warning: unused parameter ‘frequency’ [-Wunused-parameter]
+  370 |         virtual result_t setScanFrequencyDis(scan_frequency &frequency,
+      |                                              ~~~~~~~~~~~~~~~~^~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:371:55: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  371 |                                              uint32_t timeout = DEFAULT_TIMEOUT)
+      |                                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyAddMic(scan_frequency&, uint32_t)’:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:385:65: warning: unused parameter ‘frequency’ [-Wunused-parameter]
+  385 |         virtual result_t setScanFrequencyAddMic(scan_frequency &frequency,
+      |                                                 ~~~~~~~~~~~~~~~~^~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:386:58: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  386 |                                                 uint32_t timeout = DEFAULT_TIMEOUT)
+      |                                                 ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyDisMic(scan_frequency&, uint32_t)’:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:400:65: warning: unused parameter ‘frequency’ [-Wunused-parameter]
+  400 |         virtual result_t setScanFrequencyDisMic(scan_frequency &frequency,
+      |                                                 ~~~~~~~~~~~~~~~~^~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:401:58: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  401 |                                                 uint32_t timeout = DEFAULT_TIMEOUT)
+      |                                                 ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::getSamplingRate(sampling_rate&, uint32_t)’:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:415:57: warning: unused parameter ‘rate’ [-Wunused-parameter]
+  415 |         virtual result_t getSamplingRate(sampling_rate &rate,
+      |                                          ~~~~~~~~~~~~~~~^~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:416:51: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  416 |                                          uint32_t timeout = DEFAULT_TIMEOUT)
+      |                                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::setSamplingRate(sampling_rate&, uint32_t)’:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:430:57: warning: unused parameter ‘rate’ [-Wunused-parameter]
+  430 |         virtual result_t setSamplingRate(sampling_rate &rate,
+      |                                          ~~~~~~~~~~~~~~~^~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:431:51: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  431 |                                          uint32_t timeout = DEFAULT_TIMEOUT)
+      |                                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::getZeroOffsetAngle(offset_angle&, uint32_t)’:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:445:59: warning: unused parameter ‘angle’ [-Wunused-parameter]
+  445 |         virtual result_t getZeroOffsetAngle(offset_angle &angle,
+      |                                             ~~~~~~~~~~~~~~^~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:446:54: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  446 |                                             uint32_t timeout = DEFAULT_TIMEOUT)
+      |                                             ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::setScanHeartbeat(scan_heart_beat&, uint32_t)’:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:461:60: warning: unused parameter ‘beat’ [-Wunused-parameter]
+  461 |         virtual result_t setScanHeartbeat(scan_heart_beat &beat,
+      |                                           ~~~~~~~~~~~~~~~~~^~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:462:52: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+  462 |                                           uint32_t timeout = DEFAULT_TIMEOUT)
+      |                                           ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::setWorkMode(int, uint8_t)’:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:493:42: warning: unused parameter ‘mode’ [-Wunused-parameter]
+  493 |         virtual result_t setWorkMode(int mode = 0, uint8_t addr = 0x00) {
+      |                                      ~~~~^~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:493:60: warning: unused parameter ‘addr’ [-Wunused-parameter]
+  493 |         virtual result_t setWorkMode(int mode = 0, uint8_t addr = 0x00) {
+      |                                                    ~~~~~~~~^~~~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp: In lambda function:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:169:54: warning: unused parameter ‘request_header’ [-Wunused-parameter]
+  169 |     [&laser](const std::shared_ptr<rmw_request_id_t> request_header,
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:170:56: warning: unused parameter ‘req’ [-Wunused-parameter]
+  170 |   const std::shared_ptr<std_srvs::srv::Empty::Request> req,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:171:51: warning: unused parameter ‘response’ [-Wunused-parameter]
+  171 |   std::shared_ptr<std_srvs::srv::Empty::Response> response) -> bool
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp: In lambda function:
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:179:54: warning: unused parameter ‘request_header’ [-Wunused-parameter]
+  179 |     [&laser](const std::shared_ptr<rmw_request_id_t> request_header,
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:180:56: warning: unused parameter ‘req’ [-Wunused-parameter]
+  180 |   const std::shared_ptr<std_srvs::srv::Empty::Request> req,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+/home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:181:51: warning: unused parameter ‘response’ [-Wunused-parameter]
+  181 |   std::shared_ptr<std_srvs::srv::Empty::Response> response) -> bool
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[ 16%] Linking CXX executable ydlidar_node
+[100%] Built target ydlidar_node
+-- Install configuration: ""
+-- Installing: /home/lzf/chapt9/fishbot_ws/install/ydlidar/lib/ydlidar/ydlidar_node
+-- Set non-toolchain portion of runtime path of "/home/lzf/chapt9/fishbot_ws/install/ydlidar/lib/ydlidar/ydlidar_node" to ""
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/lib/ydlidar/ydlidar_client
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/launch
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/launch/ydlidar.py
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/params
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/params/ydlidar.yaml
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/startup
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/startup/initenv.sh
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/config
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/config/ydlidar.rviz
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/environment/path.sh
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/environment/path.dsv
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/local_setup.bash
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/local_setup.sh
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/local_setup.zsh
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/local_setup.dsv
+-- Installing: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/package.dsv
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+-- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/package.xml

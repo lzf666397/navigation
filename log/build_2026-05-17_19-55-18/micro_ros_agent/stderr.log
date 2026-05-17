@@ -1,0 +1,56 @@
+正克隆到 'xrceagent'...
+HEAD 目前位于 7362281 Release v2.4.3
+正克隆到 'spdlog'...
+HEAD 目前位于 eb322062 Bump version to 1.9.2
+In file included from [01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/fmt.h:23[m[K,
+                 from [01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/common.h:36[m[K,
+                 from [01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/spdlog.h:12[m[K,
+                 from [01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent/include/uxr/agent/logger/Logger.hpp:23[m[K,
+                 from [01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent/include/uxr/agent/client/session/stream/OutputStream.hpp:22[m[K,
+                 from [01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent/include/uxr/agent/client/session/Session.hpp:20[m[K,
+                 from [01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent/include/uxr/agent/client/ProxyClient.hpp:20[m[K,
+                 from [01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent/include/uxr/agent/Root.hpp:18[m[K,
+                 from [01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/processor/Processor.cpp:20[m[K:
+[01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled/format.h:[m[K In function ‘[01m[KOutputIt fmt::v8::detail::[01;32m[Kwrite_int[m[K(OutputIt, int, unsigned int, const fmt::v8::basic_format_specs<Char>&, W) [35m[K[with OutputIt = fmt::v8::appender; Char = char; W = write_int<char, fmt::v8::appender, __int128 unsigned>(fmt::v8::appender, write_int_arg<__int128 unsigned>, const fmt::v8::basic_format_specs<char>&, locale_ref)::<lambda(reserve_iterator<fmt::v8::appender>)>][m[K[m[K’:
+[01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled/format.h:1384:47:[m[K [01;31m[Kinternal compiler error: [m[K段错误
+ 1384 |     return base_iterator(out, write_digits(it)[01;31m[K)[m[K;
+      |                                               [01;31m[K^[m[K
+during RTL pass: stv
+In file included from [01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/fmt.h:23[m[K,
+                 from [01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/common.h:36[m[K,
+                 from [01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/spdlog.h:12[m[K,
+                 from [01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent/include/uxr/agent/logger/Logger.hpp:23[m[K,
+                 from [01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent/include/uxr/agent/transport/SessionManager.hpp:18[m[K,
+                 from [01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent/include/uxr/agent/transport/Server.hpp:20[m[K,
+                 from [01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp:18[m[K,
+                 from [01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp:18[m[K,
+                 from [01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp:15[m[K:
+[01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled/format.h:[m[K In function ‘[01m[KOutputIt fmt::v8::detail::[01;32m[Kwrite[m[K(OutputIt, T) [35m[K[with Char = char; OutputIt = fmt::v8::appender; T = __int128 unsigned; typename std::enable_if<((is_integral<T>::value && (! std::is_same<T, bool>::value)) && (! std::is_same<T, Char>::value)), int>::type <anonymous> = 0][m[K[m[K’:
+[01m[K/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled/format.h:1890:1:[m[K [01;31m[Kinternal compiler error: [m[K段错误
+ 1890 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+0x74f6bd24532f ???
+	./signal/../sysdeps/unix/sysv/linux/x86_64/libc_sigaction.c:0
+0x7584a864532f ???
+	./signal/../sysdeps/unix/sysv/linux/x86_64/libc_sigaction.c:0
+0x7584a862a1c9 __libc_start_call_main
+	../sysdeps/nptl/libc_start_call_main.h:58
+0x7584a862a28a __libc_start_main_impl
+	../csu/libc-start.c:360
+Please submit a full bug report, with preprocessed source (by using -freport-bug).
+Please include the complete backtrace with any bug report.
+See <file:///usr/share/doc/gcc-13/README.Bugs> for instructions.
+gmake[8]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:510：CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o] 错误 1
+gmake[8]: *** 正在等待未完成的任务....
+[01m[Kc++:[m[K [01;31m[Kinternal compiler error: [m[K段错误 signal terminated program cc1plus
+Please submit a full bug report, with preprocessed source (by using -freport-bug).
+See <file:///usr/share/doc/gcc-13/README.Bugs> for instructions.
+gmake[8]: *** [CMakeFiles/microxrcedds_agent.dir/build.make:118：CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o] 错误 4
+gmake[7]: *** [CMakeFiles/Makefile2:83：CMakeFiles/microxrcedds_agent.dir/all] 错误 2
+gmake[6]: *** [Makefile:136：all] 错误 2
+gmake[5]: *** [CMakeFiles/uagent.dir/build.make:86：uagent-prefix/src/uagent-stamp/uagent-build] 错误 2
+gmake[4]: *** [CMakeFiles/Makefile2:111：CMakeFiles/uagent.dir/all] 错误 2
+gmake[3]: *** [Makefile:91：all] 错误 2
+gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:86：agent/src/xrceagent-stamp/xrceagent-build] 错误 2
+gmake[1]: *** [CMakeFiles/Makefile2:85：CMakeFiles/xrceagent.dir/all] 错误 2
+gmake: *** [Makefile:91：all] 错误 2

@@ -1,0 +1,10 @@
+/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/CMakeFiles/uninstall.dir
+/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/CMakeFiles/micro_ros_agent_uninstall.dir
+/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/CMakeFiles/micro_ros_agent.dir
+/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/CMakeFiles/test.dir
+/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/CMakeFiles/edit_cache.dir
+/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/CMakeFiles/rebuild_cache.dir
+/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/CMakeFiles/list_install_components.dir
+/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/CMakeFiles/install.dir
+/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/CMakeFiles/install/local.dir
+/home/lzf/chapt9/fishbot_ws/build/micro_ros_agent/CMakeFiles/install/strip.dir

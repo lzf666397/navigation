@@ -1,0 +1,198 @@
+[0.006s] Invoking command in '/home/lzf/chapt9/fishbot_ws/build/ydlidar': CMAKE_PREFIX_PATH=/home/lzf/ros2_rmf_ws/install/rmf_workcell_msgs:/home/lzf/ros2_rmf_ws/install/rmf_demos_gz:/home/lzf/ros2_rmf_ws/install/rmf_demos:/home/lzf/ros2_rmf_ws/install/rmf_fleet_adapter_python:/home/lzf/ros2_rmf_ws/install/rmf_fleet_adapter:/home/lzf/ros2_rmf_ws/install/rmf_task_ros2:/home/lzf/ros2_rmf_ws/install/rmf_websocket:/home/lzf/ros2_rmf_ws/install/rmf_visualization:/home/lzf/ros2_rmf_ws/install/rmf_visualization_schedule:/home/lzf/ros2_rmf_ws/install/rmf_visualization_rviz2_plugins:/home/lzf/ros2_rmf_ws/install/rmf_visualization_obstacles:/home/lzf/ros2_rmf_ws/install/rmf_visualization_navgraphs:/home/lzf/ros2_rmf_ws/install/rmf_visualization_floorplans:/home/lzf/ros2_rmf_ws/install/rmf_visualization_fleet_states:/home/lzf/ros2_rmf_ws/install/rmf_visualization_msgs:/home/lzf/ros2_rmf_ws/install/rmf_traffic_ros2:/home/lzf/ros2_rmf_ws/install/rmf_task_sequence:/home/lzf/ros2_rmf_ws/install/rmf_task:/home/lzf/ros2_rmf_ws/install/rmf_battery:/home/lzf/ros2_rmf_ws/install/rmf_traffic:/home/lzf/ros2_rmf_ws/install/rmf_utils:/home/lzf/ros2_rmf_ws/install/rmf_traffic_msgs:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor_test_maps:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor_assets:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor:/home/lzf/ros2_rmf_ws/install/rmf_task_msgs:/home/lzf/ros2_rmf_ws/install/rmf_site_map_msgs:/home/lzf/ros2_rmf_ws/install/rmf_scheduler_msgs:/home/lzf/ros2_rmf_ws/install/rmf_robot_sim_gz_plugins:/home/lzf/ros2_rmf_ws/install/rmf_robot_sim_common:/home/lzf/ros2_rmf_ws/install/rmf_obstacle_msgs:/home/lzf/ros2_rmf_ws/install/rmf_building_sim_gz_plugins:/home/lzf/ros2_rmf_ws/install/rmf_lift_msgs:/home/lzf/ros2_rmf_ws/install/rmf_ingestor_msgs:/home/lzf/ros2_rmf_ws/install/rmf_fleet_msgs:/home/lzf/ros2_rmf_ws/install/rmf_door_msgs:/home/lzf/ros2_rmf_ws/install/rmf_demos_maps:/home/lzf/ros2_rmf_ws/install/rmf_demos_assets:/home/lzf/ros2_rmf_ws/install/rmf_charger_msgs:/home/lzf/ros2_rmf_ws/install/rmf_api_msgs:/home/lzf/ros2_rmf_ws/install/pybind11_json_vendor:/home/lzf/ros2_rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/lzf/ros2_rmf_ws/install/rmf_demos_fleet_adapter:/home/lzf/ros2_rmf_ws/install/rmf_visualization_building_systems:/home/lzf/ros2_rmf_ws/install/rmf_traffic_examples:/home/lzf/ros2_rmf_ws/install/rmf_demos_bridges:/home/lzf/ros2_rmf_ws/install/rmf_demos_tasks:/home/lzf/ros2_rmf_ws/install/rmf_building_map_tools:/home/lzf/ros2_rmf_ws/install/rmf_charging_schedule:/home/lzf/ros2_rmf_ws/install/rmf_dispenser_msgs:/home/lzf/ros2_rmf_ws/install/rmf_building_map_msgs:/home/lzf/ros2_rmf_ws/install/case_study2_pointcloud_viz:/home/lzf/ros2_rmf_ws/install/case_study2_gazebo:/home/lzf/ros2_free_fleet_ws/install/free_fleet:/opt/ros/jazzy:/home/lzf/ros2_rmf_ws/install/menge_vendor:/home/lzf/ros2_rmf_ws/install/ament_cmake_catch2:/home/lzf/ros2_rmf_map_ws/install/rmf_burger_maps:/home/lzf/ros2_free_fleet_ws/install/free_fleet_examples:/home/lzf/ros2_free_fleet_ws/install/free_fleet_adapter:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lzf/chapt9/fishbot_ws/build/ydlidar -- -j28 -l28
+[0.049s] [  8%] Built target ydlidar_client
+[0.059s] [ 12%] Building CXX object CMakeFiles/ydlidar_node.dir/src/ydlidar_node.cpp.o
+[0.235s] In file included from /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/v8stdint.h:142,
+[0.235s]                  from /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:4,
+[0.235s]                  from /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/src/CYdLidar.h:48,
+[0.235s]                  from /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:16:
+[0.235s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h: In function ‘bool ydlidar::core::base::fileExists(const std::string&)’:
+[0.235s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_ino’ [-Wmissing-field-initializers]
+[0.235s]   183 |   struct stat info = {0};
+[0.235s]       |                        ^
+[0.235s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_nlink’ [-Wmissing-field-initializers]
+[0.235s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_mode’ [-Wmissing-field-initializers]
+[0.235s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_uid’ [-Wmissing-field-initializers]
+[0.235s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_gid’ [-Wmissing-field-initializers]
+[0.235s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::__pad0’ [-Wmissing-field-initializers]
+[0.235s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_rdev’ [-Wmissing-field-initializers]
+[0.235s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_size’ [-Wmissing-field-initializers]
+[0.235s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_blksize’ [-Wmissing-field-initializers]
+[0.235s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_blocks’ [-Wmissing-field-initializers]
+[0.235s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_atim’ [-Wmissing-field-initializers]
+[0.235s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_mtim’ [-Wmissing-field-initializers]
+[0.236s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::st_ctim’ [-Wmissing-field-initializers]
+[0.236s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/ydlidar.h:183:24: warning: missing initializer for member ‘stat::__glibc_reserved’ [-Wmissing-field-initializers]
+[0.236s] In file included from /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:5:
+[0.236s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h: In static member function ‘static ydlidar::core::base::Thread ydlidar::core::base::Thread::createThread(thread_proc_t, void*)’:
+[0.236s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:54:42: warning: cast between incompatible function types from ‘thread_proc_t’ {aka ‘long unsigned int (*)(void*)’} to ‘void* (*)(void*)’ [-Wcast-function-type]
+[0.236s]    54 |                                    NULL, (void *(*)(void *))proc,
+[0.236s]       |                                          ^~~~~~~~~~~~~~~~~~~~~~~
+[0.236s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h: In member function ‘int ydlidar::core::base::Thread::join(long unsigned int)’:
+[0.236s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:135:46: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 2 has type ‘_size_t’ {aka ‘long unsigned int’} [-Wformat=]
+[0.236s]   135 |           printf("[YDLIDAR DEBUG] Thread [0x%X] ready to cancel[%d]\n", _handle, s);
+[0.236s]       |                                             ~^                          ~~~~~~~
+[0.236s]       |                                              |                          |
+[0.236s]       |                                              unsigned int               _size_t {aka long unsigned int}
+[0.236s]       |                                             %lX
+[0.236s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:137:46: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 2 has type ‘_size_t’ {aka ‘long unsigned int’} [-Wformat=]
+[0.236s]   137 |           printf("[YDLIDAR DEBUG] Thread [0x%X] ready to cancel[%d] time[%u]\n",
+[0.236s]       |                                             ~^
+[0.236s]       |                                              |
+[0.236s]       |                                              unsigned int
+[0.236s]       |                                             %lX
+[0.236s]   138 |             _handle, s, getms() - t);
+[0.236s]       |             ~~~~~~~                           
+[0.236s]       |             |
+[0.236s]       |             _size_t {aka long unsigned int}
+[0.236s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:141:42: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 2 has type ‘_size_t’ {aka ‘long unsigned int’} [-Wformat=]
+[0.236s]   141 |             printf("[YDLIDAR] Thread [0x%X] has been canceled in other thread\n", _handle);
+[0.236s]       |                                         ~^                                        ~~~~~~~
+[0.236s]       |                                          |                                        |
+[0.236s]       |                                          unsigned int                             _size_t {aka long unsigned int}
+[0.236s]       |                                         %lX
+[0.236s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:146:74: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 3 has type ‘_size_t’ {aka ‘long unsigned int’} [-Wformat=]
+[0.236s]   146 |             fprintf(stderr, "[YDLIDAR] An error occurred while thread[0x%X] cancelled!\n", _handle);
+[0.236s]       |                                                                         ~^                 ~~~~~~~
+[0.236s]       |                                                                          |                 |
+[0.236s]       |                                                                          unsigned int      _size_t {aka long unsigned int}
+[0.236s]       |                                                                         %lX
+[0.236s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/base/thread.h:150:40: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 2 has type ‘_size_t’ {aka ‘long unsigned int’} [-Wformat=]
+[0.236s]   150 |           printf("[YDLIDAR] Thread [0x%X] has been canceled\n", _handle);
+[0.237s]       |                                       ~^                        ~~~~~~~
+[0.237s]       |                                        |                        |
+[0.237s]       |                                        unsigned int             _size_t {aka long unsigned int}
+[0.237s]       |                                       %lX
+[0.275s] In file included from /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:8:
+[0.275s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/ydlidar_protocol.h: At global scope:
+[0.275s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/ydlidar_protocol.h:291:22: warning: missing initializer for member ‘device_info::firmware_version’ [-Wmissing-field-initializers]
+[0.275s]   291 |   device_info di = {0};
+[0.275s]       |                      ^
+[0.275s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/ydlidar_protocol.h:291:22: warning: missing initializer for member ‘device_info::hardware_version’ [-Wmissing-field-initializers]
+[0.275s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/ydlidar_protocol.h:291:22: warning: missing initializer for member ‘device_info::serialnum’ [-Wmissing-field-initializers]
+[0.278s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual bool ydlidar::core::common::DriverInterface::getDeviceInfoEx(device_info&, int)’:
+[0.278s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:285:59: warning: unused parameter ‘type’ [-Wunused-parameter]
+[0.278s]   285 |         virtual bool getDeviceInfoEx(device_info &di, int type=EPT_Module)
+[0.278s]       |                                                       ~~~~^~~~~~~~~~~~~~~
+[0.278s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::getScanFrequency(scan_frequency&, uint32_t)’:
+[0.278s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:340:59: warning: unused parameter ‘frequency’ [-Wunused-parameter]
+[0.278s]   340 |         virtual result_t getScanFrequency(scan_frequency &frequency,
+[0.278s]       |                                           ~~~~~~~~~~~~~~~~^~~~~~~~~
+[0.278s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:341:52: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[0.278s]   341 |                                           uint32_t timeout = DEFAULT_TIMEOUT)
+[0.278s]       |                                           ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+[0.278s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyAdd(scan_frequency&, uint32_t)’:
+[0.278s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:355:62: warning: unused parameter ‘frequency’ [-Wunused-parameter]
+[0.278s]   355 |         virtual result_t setScanFrequencyAdd(scan_frequency &frequency,
+[0.278s]       |                                              ~~~~~~~~~~~~~~~~^~~~~~~~~
+[0.278s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:356:55: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[0.278s]   356 |                                              uint32_t timeout = DEFAULT_TIMEOUT)
+[0.278s]       |                                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+[0.278s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyDis(scan_frequency&, uint32_t)’:
+[0.278s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:370:62: warning: unused parameter ‘frequency’ [-Wunused-parameter]
+[0.279s]   370 |         virtual result_t setScanFrequencyDis(scan_frequency &frequency,
+[0.279s]       |                                              ~~~~~~~~~~~~~~~~^~~~~~~~~
+[0.279s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:371:55: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[0.279s]   371 |                                              uint32_t timeout = DEFAULT_TIMEOUT)
+[0.279s]       |                                              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+[0.279s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyAddMic(scan_frequency&, uint32_t)’:
+[0.279s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:385:65: warning: unused parameter ‘frequency’ [-Wunused-parameter]
+[0.279s]   385 |         virtual result_t setScanFrequencyAddMic(scan_frequency &frequency,
+[0.279s]       |                                                 ~~~~~~~~~~~~~~~~^~~~~~~~~
+[0.279s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:386:58: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[0.279s]   386 |                                                 uint32_t timeout = DEFAULT_TIMEOUT)
+[0.279s]       |                                                 ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+[0.279s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::setScanFrequencyDisMic(scan_frequency&, uint32_t)’:
+[0.279s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:400:65: warning: unused parameter ‘frequency’ [-Wunused-parameter]
+[0.279s]   400 |         virtual result_t setScanFrequencyDisMic(scan_frequency &frequency,
+[0.279s]       |                                                 ~~~~~~~~~~~~~~~~^~~~~~~~~
+[0.279s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:401:58: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[0.279s]   401 |                                                 uint32_t timeout = DEFAULT_TIMEOUT)
+[0.279s]       |                                                 ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+[0.279s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::getSamplingRate(sampling_rate&, uint32_t)’:
+[0.279s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:415:57: warning: unused parameter ‘rate’ [-Wunused-parameter]
+[0.279s]   415 |         virtual result_t getSamplingRate(sampling_rate &rate,
+[0.279s]       |                                          ~~~~~~~~~~~~~~~^~~~
+[0.279s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:416:51: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[0.279s]   416 |                                          uint32_t timeout = DEFAULT_TIMEOUT)
+[0.279s]       |                                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+[0.279s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::setSamplingRate(sampling_rate&, uint32_t)’:
+[0.279s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:430:57: warning: unused parameter ‘rate’ [-Wunused-parameter]
+[0.279s]   430 |         virtual result_t setSamplingRate(sampling_rate &rate,
+[0.279s]       |                                          ~~~~~~~~~~~~~~~^~~~
+[0.279s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:431:51: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[0.279s]   431 |                                          uint32_t timeout = DEFAULT_TIMEOUT)
+[0.279s]       |                                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+[0.279s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::getZeroOffsetAngle(offset_angle&, uint32_t)’:
+[0.279s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:445:59: warning: unused parameter ‘angle’ [-Wunused-parameter]
+[0.279s]   445 |         virtual result_t getZeroOffsetAngle(offset_angle &angle,
+[0.279s]       |                                             ~~~~~~~~~~~~~~^~~~~
+[0.279s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:446:54: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[0.279s]   446 |                                             uint32_t timeout = DEFAULT_TIMEOUT)
+[0.279s]       |                                             ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+[0.279s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::setScanHeartbeat(scan_heart_beat&, uint32_t)’:
+[0.279s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:461:60: warning: unused parameter ‘beat’ [-Wunused-parameter]
+[0.279s]   461 |         virtual result_t setScanHeartbeat(scan_heart_beat &beat,
+[0.279s]       |                                           ~~~~~~~~~~~~~~~~~^~~~
+[0.280s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:462:52: warning: unused parameter ‘timeout’ [-Wunused-parameter]
+[0.280s]   462 |                                           uint32_t timeout = DEFAULT_TIMEOUT)
+[0.280s]       |                                           ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+[0.280s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h: In member function ‘virtual result_t ydlidar::core::common::DriverInterface::setWorkMode(int, uint8_t)’:
+[0.280s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:493:42: warning: unused parameter ‘mode’ [-Wunused-parameter]
+[0.280s]   493 |         virtual result_t setWorkMode(int mode = 0, uint8_t addr = 0x00) {
+[0.280s]       |                                      ~~~~^~~~~~~~
+[0.280s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/sdk/core/common/DriverInterface.h:493:60: warning: unused parameter ‘addr’ [-Wunused-parameter]
+[0.280s]   493 |         virtual result_t setWorkMode(int mode = 0, uint8_t addr = 0x00) {
+[0.280s]       |                                                    ~~~~~~~~^~~~~~~~~~~
+[1.034s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp: In lambda function:
+[1.034s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:170:54: warning: unused parameter ‘request_header’ [-Wunused-parameter]
+[1.034s]   170 |     [&laser](const std::shared_ptr<rmw_request_id_t> request_header,
+[1.034s]       |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+[1.034s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:171:56: warning: unused parameter ‘req’ [-Wunused-parameter]
+[1.034s]   171 |   const std::shared_ptr<std_srvs::srv::Empty::Request> req,
+[1.034s]       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+[1.034s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:172:51: warning: unused parameter ‘response’ [-Wunused-parameter]
+[1.034s]   172 |   std::shared_ptr<std_srvs::srv::Empty::Response> response) -> bool
+[1.034s]       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[1.038s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp: In lambda function:
+[1.038s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:180:54: warning: unused parameter ‘request_header’ [-Wunused-parameter]
+[1.038s]   180 |     [&laser](const std::shared_ptr<rmw_request_id_t> request_header,
+[1.038s]       |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+[1.038s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:181:56: warning: unused parameter ‘req’ [-Wunused-parameter]
+[1.038s]   181 |   const std::shared_ptr<std_srvs::srv::Empty::Request> req,
+[1.038s]       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+[1.038s] /home/lzf/chapt9/fishbot_ws/src/ydlidar_ros2/src/ydlidar_node.cpp:182:51: warning: unused parameter ‘response’ [-Wunused-parameter]
+[1.038s]   182 |   std::shared_ptr<std_srvs::srv::Empty::Response> response) -> bool
+[1.038s]       |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[2.706s] [ 16%] Linking CXX executable ydlidar_node
+[2.830s] [100%] Built target ydlidar_node
+[2.836s] Invoked command in '/home/lzf/chapt9/fishbot_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=/home/lzf/ros2_rmf_ws/install/rmf_workcell_msgs:/home/lzf/ros2_rmf_ws/install/rmf_demos_gz:/home/lzf/ros2_rmf_ws/install/rmf_demos:/home/lzf/ros2_rmf_ws/install/rmf_fleet_adapter_python:/home/lzf/ros2_rmf_ws/install/rmf_fleet_adapter:/home/lzf/ros2_rmf_ws/install/rmf_task_ros2:/home/lzf/ros2_rmf_ws/install/rmf_websocket:/home/lzf/ros2_rmf_ws/install/rmf_visualization:/home/lzf/ros2_rmf_ws/install/rmf_visualization_schedule:/home/lzf/ros2_rmf_ws/install/rmf_visualization_rviz2_plugins:/home/lzf/ros2_rmf_ws/install/rmf_visualization_obstacles:/home/lzf/ros2_rmf_ws/install/rmf_visualization_navgraphs:/home/lzf/ros2_rmf_ws/install/rmf_visualization_floorplans:/home/lzf/ros2_rmf_ws/install/rmf_visualization_fleet_states:/home/lzf/ros2_rmf_ws/install/rmf_visualization_msgs:/home/lzf/ros2_rmf_ws/install/rmf_traffic_ros2:/home/lzf/ros2_rmf_ws/install/rmf_task_sequence:/home/lzf/ros2_rmf_ws/install/rmf_task:/home/lzf/ros2_rmf_ws/install/rmf_battery:/home/lzf/ros2_rmf_ws/install/rmf_traffic:/home/lzf/ros2_rmf_ws/install/rmf_utils:/home/lzf/ros2_rmf_ws/install/rmf_traffic_msgs:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor_test_maps:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor_assets:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor:/home/lzf/ros2_rmf_ws/install/rmf_task_msgs:/home/lzf/ros2_rmf_ws/install/rmf_site_map_msgs:/home/lzf/ros2_rmf_ws/install/rmf_scheduler_msgs:/home/lzf/ros2_rmf_ws/install/rmf_robot_sim_gz_plugins:/home/lzf/ros2_rmf_ws/install/rmf_robot_sim_common:/home/lzf/ros2_rmf_ws/install/rmf_obstacle_msgs:/home/lzf/ros2_rmf_ws/install/rmf_building_sim_gz_plugins:/home/lzf/ros2_rmf_ws/install/rmf_lift_msgs:/home/lzf/ros2_rmf_ws/install/rmf_ingestor_msgs:/home/lzf/ros2_rmf_ws/install/rmf_fleet_msgs:/home/lzf/ros2_rmf_ws/install/rmf_door_msgs:/home/lzf/ros2_rmf_ws/install/rmf_demos_maps:/home/lzf/ros2_rmf_ws/install/rmf_demos_assets:/home/lzf/ros2_rmf_ws/install/rmf_charger_msgs:/home/lzf/ros2_rmf_ws/install/rmf_api_msgs:/home/lzf/ros2_rmf_ws/install/pybind11_json_vendor:/home/lzf/ros2_rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/lzf/ros2_rmf_ws/install/rmf_demos_fleet_adapter:/home/lzf/ros2_rmf_ws/install/rmf_visualization_building_systems:/home/lzf/ros2_rmf_ws/install/rmf_traffic_examples:/home/lzf/ros2_rmf_ws/install/rmf_demos_bridges:/home/lzf/ros2_rmf_ws/install/rmf_demos_tasks:/home/lzf/ros2_rmf_ws/install/rmf_building_map_tools:/home/lzf/ros2_rmf_ws/install/rmf_charging_schedule:/home/lzf/ros2_rmf_ws/install/rmf_dispenser_msgs:/home/lzf/ros2_rmf_ws/install/rmf_building_map_msgs:/home/lzf/ros2_rmf_ws/install/case_study2_pointcloud_viz:/home/lzf/ros2_rmf_ws/install/case_study2_gazebo:/home/lzf/ros2_free_fleet_ws/install/free_fleet:/opt/ros/jazzy:/home/lzf/ros2_rmf_ws/install/menge_vendor:/home/lzf/ros2_rmf_ws/install/ament_cmake_catch2:/home/lzf/ros2_rmf_map_ws/install/rmf_burger_maps:/home/lzf/ros2_free_fleet_ws/install/free_fleet_examples:/home/lzf/ros2_free_fleet_ws/install/free_fleet_adapter:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lzf/chapt9/fishbot_ws/build/ydlidar -- -j28 -l28
+[2.837s] Invoking command in '/home/lzf/chapt9/fishbot_ws/build/ydlidar': CMAKE_PREFIX_PATH=/home/lzf/ros2_rmf_ws/install/rmf_workcell_msgs:/home/lzf/ros2_rmf_ws/install/rmf_demos_gz:/home/lzf/ros2_rmf_ws/install/rmf_demos:/home/lzf/ros2_rmf_ws/install/rmf_fleet_adapter_python:/home/lzf/ros2_rmf_ws/install/rmf_fleet_adapter:/home/lzf/ros2_rmf_ws/install/rmf_task_ros2:/home/lzf/ros2_rmf_ws/install/rmf_websocket:/home/lzf/ros2_rmf_ws/install/rmf_visualization:/home/lzf/ros2_rmf_ws/install/rmf_visualization_schedule:/home/lzf/ros2_rmf_ws/install/rmf_visualization_rviz2_plugins:/home/lzf/ros2_rmf_ws/install/rmf_visualization_obstacles:/home/lzf/ros2_rmf_ws/install/rmf_visualization_navgraphs:/home/lzf/ros2_rmf_ws/install/rmf_visualization_floorplans:/home/lzf/ros2_rmf_ws/install/rmf_visualization_fleet_states:/home/lzf/ros2_rmf_ws/install/rmf_visualization_msgs:/home/lzf/ros2_rmf_ws/install/rmf_traffic_ros2:/home/lzf/ros2_rmf_ws/install/rmf_task_sequence:/home/lzf/ros2_rmf_ws/install/rmf_task:/home/lzf/ros2_rmf_ws/install/rmf_battery:/home/lzf/ros2_rmf_ws/install/rmf_traffic:/home/lzf/ros2_rmf_ws/install/rmf_utils:/home/lzf/ros2_rmf_ws/install/rmf_traffic_msgs:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor_test_maps:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor_assets:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor:/home/lzf/ros2_rmf_ws/install/rmf_task_msgs:/home/lzf/ros2_rmf_ws/install/rmf_site_map_msgs:/home/lzf/ros2_rmf_ws/install/rmf_scheduler_msgs:/home/lzf/ros2_rmf_ws/install/rmf_robot_sim_gz_plugins:/home/lzf/ros2_rmf_ws/install/rmf_robot_sim_common:/home/lzf/ros2_rmf_ws/install/rmf_obstacle_msgs:/home/lzf/ros2_rmf_ws/install/rmf_building_sim_gz_plugins:/home/lzf/ros2_rmf_ws/install/rmf_lift_msgs:/home/lzf/ros2_rmf_ws/install/rmf_ingestor_msgs:/home/lzf/ros2_rmf_ws/install/rmf_fleet_msgs:/home/lzf/ros2_rmf_ws/install/rmf_door_msgs:/home/lzf/ros2_rmf_ws/install/rmf_demos_maps:/home/lzf/ros2_rmf_ws/install/rmf_demos_assets:/home/lzf/ros2_rmf_ws/install/rmf_charger_msgs:/home/lzf/ros2_rmf_ws/install/rmf_api_msgs:/home/lzf/ros2_rmf_ws/install/pybind11_json_vendor:/home/lzf/ros2_rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/lzf/ros2_rmf_ws/install/rmf_demos_fleet_adapter:/home/lzf/ros2_rmf_ws/install/rmf_visualization_building_systems:/home/lzf/ros2_rmf_ws/install/rmf_traffic_examples:/home/lzf/ros2_rmf_ws/install/rmf_demos_bridges:/home/lzf/ros2_rmf_ws/install/rmf_demos_tasks:/home/lzf/ros2_rmf_ws/install/rmf_building_map_tools:/home/lzf/ros2_rmf_ws/install/rmf_charging_schedule:/home/lzf/ros2_rmf_ws/install/rmf_dispenser_msgs:/home/lzf/ros2_rmf_ws/install/rmf_building_map_msgs:/home/lzf/ros2_rmf_ws/install/case_study2_pointcloud_viz:/home/lzf/ros2_rmf_ws/install/case_study2_gazebo:/home/lzf/ros2_free_fleet_ws/install/free_fleet:/opt/ros/jazzy:/home/lzf/ros2_rmf_ws/install/menge_vendor:/home/lzf/ros2_rmf_ws/install/ament_cmake_catch2:/home/lzf/ros2_rmf_map_ws/install/rmf_burger_maps:/home/lzf/ros2_free_fleet_ws/install/free_fleet_examples:/home/lzf/ros2_free_fleet_ws/install/free_fleet_adapter:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lzf/chapt9/fishbot_ws/build/ydlidar
+[2.843s] -- Install configuration: ""
+[2.843s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/ydlidar/lib/ydlidar/ydlidar_node
+[2.845s] -- Set non-toolchain portion of runtime path of "/home/lzf/chapt9/fishbot_ws/install/ydlidar/lib/ydlidar/ydlidar_node" to ""
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/lib/ydlidar/ydlidar_client
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/launch
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/launch/ydlidar.py
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/params
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/params/ydlidar.yaml
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/startup
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/startup/initenv.sh
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/config
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/config/ydlidar.rviz
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/environment/path.sh
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/environment/path.dsv
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/local_setup.bash
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/local_setup.sh
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/local_setup.zsh
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/local_setup.dsv
+[2.845s] -- Installing: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/package.dsv
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+[2.845s] -- Up-to-date: /home/lzf/chapt9/fishbot_ws/install/ydlidar/share/ydlidar/package.xml
+[2.846s] Invoked command in '/home/lzf/chapt9/fishbot_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=/home/lzf/ros2_rmf_ws/install/rmf_workcell_msgs:/home/lzf/ros2_rmf_ws/install/rmf_demos_gz:/home/lzf/ros2_rmf_ws/install/rmf_demos:/home/lzf/ros2_rmf_ws/install/rmf_fleet_adapter_python:/home/lzf/ros2_rmf_ws/install/rmf_fleet_adapter:/home/lzf/ros2_rmf_ws/install/rmf_task_ros2:/home/lzf/ros2_rmf_ws/install/rmf_websocket:/home/lzf/ros2_rmf_ws/install/rmf_visualization:/home/lzf/ros2_rmf_ws/install/rmf_visualization_schedule:/home/lzf/ros2_rmf_ws/install/rmf_visualization_rviz2_plugins:/home/lzf/ros2_rmf_ws/install/rmf_visualization_obstacles:/home/lzf/ros2_rmf_ws/install/rmf_visualization_navgraphs:/home/lzf/ros2_rmf_ws/install/rmf_visualization_floorplans:/home/lzf/ros2_rmf_ws/install/rmf_visualization_fleet_states:/home/lzf/ros2_rmf_ws/install/rmf_visualization_msgs:/home/lzf/ros2_rmf_ws/install/rmf_traffic_ros2:/home/lzf/ros2_rmf_ws/install/rmf_task_sequence:/home/lzf/ros2_rmf_ws/install/rmf_task:/home/lzf/ros2_rmf_ws/install/rmf_battery:/home/lzf/ros2_rmf_ws/install/rmf_traffic:/home/lzf/ros2_rmf_ws/install/rmf_utils:/home/lzf/ros2_rmf_ws/install/rmf_traffic_msgs:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor_test_maps:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor_assets:/home/lzf/ros2_rmf_ws/install/rmf_traffic_editor:/home/lzf/ros2_rmf_ws/install/rmf_task_msgs:/home/lzf/ros2_rmf_ws/install/rmf_site_map_msgs:/home/lzf/ros2_rmf_ws/install/rmf_scheduler_msgs:/home/lzf/ros2_rmf_ws/install/rmf_robot_sim_gz_plugins:/home/lzf/ros2_rmf_ws/install/rmf_robot_sim_common:/home/lzf/ros2_rmf_ws/install/rmf_obstacle_msgs:/home/lzf/ros2_rmf_ws/install/rmf_building_sim_gz_plugins:/home/lzf/ros2_rmf_ws/install/rmf_lift_msgs:/home/lzf/ros2_rmf_ws/install/rmf_ingestor_msgs:/home/lzf/ros2_rmf_ws/install/rmf_fleet_msgs:/home/lzf/ros2_rmf_ws/install/rmf_door_msgs:/home/lzf/ros2_rmf_ws/install/rmf_demos_maps:/home/lzf/ros2_rmf_ws/install/rmf_demos_assets:/home/lzf/ros2_rmf_ws/install/rmf_charger_msgs:/home/lzf/ros2_rmf_ws/install/rmf_api_msgs:/home/lzf/ros2_rmf_ws/install/pybind11_json_vendor:/home/lzf/ros2_rmf_ws/install/nlohmann_json_schema_validator_vendor:/home/lzf/ros2_rmf_ws/install/rmf_demos_fleet_adapter:/home/lzf/ros2_rmf_ws/install/rmf_visualization_building_systems:/home/lzf/ros2_rmf_ws/install/rmf_traffic_examples:/home/lzf/ros2_rmf_ws/install/rmf_demos_bridges:/home/lzf/ros2_rmf_ws/install/rmf_demos_tasks:/home/lzf/ros2_rmf_ws/install/rmf_building_map_tools:/home/lzf/ros2_rmf_ws/install/rmf_charging_schedule:/home/lzf/ros2_rmf_ws/install/rmf_dispenser_msgs:/home/lzf/ros2_rmf_ws/install/rmf_building_map_msgs:/home/lzf/ros2_rmf_ws/install/case_study2_pointcloud_viz:/home/lzf/ros2_rmf_ws/install/case_study2_gazebo:/home/lzf/ros2_free_fleet_ws/install/free_fleet:/opt/ros/jazzy:/home/lzf/ros2_rmf_ws/install/menge_vendor:/home/lzf/ros2_rmf_ws/install/ament_cmake_catch2:/home/lzf/ros2_rmf_map_ws/install/rmf_burger_maps:/home/lzf/ros2_free_fleet_ws/install/free_fleet_examples:/home/lzf/ros2_free_fleet_ws/install/free_fleet_adapter:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/lzf/chapt9/fishbot_ws/build/ydlidar
