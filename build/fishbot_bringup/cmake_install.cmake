@@ -67,6 +67,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/fishbot_bringup" TYPE PROGRAM FILES "/home/lzf/chapt9/fishbot_ws/src/fishbot_bringup/scripts/dynamic_scan_filter")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fishbot_bringup" TYPE DIRECTORY FILES
     "/home/lzf/chapt9/fishbot_ws/src/fishbot_bringup/launch"
     "/home/lzf/chapt9/fishbot_ws/src/fishbot_bringup/config"

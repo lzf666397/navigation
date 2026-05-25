@@ -8,6 +8,7 @@ def generate_launch_description():
         'fishbot_bringup')
     ydlidar_ros2_dir = get_package_share_directory(
         'ydlidar')
+    ydlidar_params_file = ydlidar_ros2_dir + '/params/ydlidar.yaml'
 
     urdf2tf = launch.actions.IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -37,6 +38,9 @@ def generate_launch_description():
     ydlidar = launch.actions.IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             [ydlidar_ros2_dir, '/launch', '/ydlidar_launch.py']),
+        launch_arguments={
+            'params_file': ydlidar_params_file,
+        }.items(),
     )
 
     # 使用 TimerAction 启动后 5 秒执行 ydlidar 节点

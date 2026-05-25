@@ -36,6 +36,11 @@ ament_target_dependencies(odom2tf
 install(TARGETS odom2tf
   DESTINATION lib/${PROJECT_NAME})
 
+install(PROGRAMS
+  scripts/dynamic_scan_filter
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 install(DIRECTORY
 launch
 config

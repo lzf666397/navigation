@@ -1,6 +1,7 @@
 import os
 
 import launch
+import launch_ros
 from ament_index_python.packages import get_package_share_directory
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 
@@ -25,6 +26,23 @@ def generate_launch_description():
         }.items()
     )
 
+    scan_filter = launch_ros.actions.Node(
+        package='fishbot_bringup',
+        executable='dynamic_scan_filter',
+        name='dynamic_scan_filter',
+        output='screen',
+        parameters=[{
+            'input_topic': '/scan',
+            'output_topic': '/scan_for_slam',
+            'stable_observations': 3,
+            'sudden_obstacle_observations': 8,
+            'range_tolerance': 0.20,
+            'sudden_obstacle_distance': 0.40,
+            'max_slam_range': 8.0,
+        }],
+    )
+
     return launch.LaunchDescription([
+        scan_filter,
         slam_toolbox,
     ])

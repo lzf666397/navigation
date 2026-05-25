@@ -1,0 +1,158 @@
+#!/usr/bin/env python3
+
+import math
+
+import rclpy
+from rclpy.node import Node
+from rclpy.qos import qos_profile_sensor_data
+from sensor_msgs.msg import LaserScan
+
+
+class DynamicScanFilter(Node):
+    """Filter short-lived close laser returns out of the scan used by SLAM."""
+
+    def __init__(self):
+        super().__init__('dynamic_scan_filter')
+
+        self.declare_parameter('input_topic', '/scan')
+        self.declare_parameter('output_topic', '/scan_for_slam')
+        self.declare_parameter('stable_observations', 3)
+        self.declare_parameter('sudden_obstacle_observations', 8)
+        self.declare_parameter('range_tolerance', 0.20)
+        self.declare_parameter('sudden_obstacle_distance', 0.40)
+        self.declare_parameter('max_slam_range', 8.0)
+        self.declare_parameter('stable_update_alpha', 0.35)
+
+        input_topic = self.get_parameter('input_topic').value
+        output_topic = self.get_parameter('output_topic').value
+
+        self.stable_observations = max(
+            1, int(self.get_parameter('stable_observations').value))
+        self.sudden_obstacle_observations = max(
+            self.stable_observations,
+            int(self.get_parameter('sudden_obstacle_observations').value))
+        self.range_tolerance = float(self.get_parameter('range_tolerance').value)
+        self.sudden_obstacle_distance = float(
+            self.get_parameter('sudden_obstacle_distance').value)
+        self.max_slam_range = float(self.get_parameter('max_slam_range').value)
+        self.stable_update_alpha = min(
+            1.0, max(0.0, float(self.get_parameter('stable_update_alpha').value)))
+
+        self._stable_ranges = []
+        self._candidate_ranges = []
+        self._candidate_counts = []
+
+        self._publisher = self.create_publisher(
+            LaserScan, output_topic, qos_profile_sensor_data)
+        self._subscription = self.create_subscription(
+            LaserScan, input_topic, self._scan_callback, qos_profile_sensor_data)
+
+        self.get_logger().info(
+            f'Filtering {input_topic} -> {output_topic} for SLAM; '
+            f'Nav2 should still use the raw {input_topic}.')
+
+    def _reset_state(self, size):
+        self._stable_ranges = [math.nan] * size
+        self._candidate_ranges = [math.nan] * size
+        self._candidate_counts = [0] * size
+
+    def _invalid_range(self, scan):
+        return scan.range_max + 1.0
+
+    def _is_valid(self, value, scan):
+        if not math.isfinite(value):
+            return False
+        if value < scan.range_min or value > scan.range_max:
+            return False
+        if self.max_slam_range > 0.0 and value > self.max_slam_range:
+            return False
+        return True
+
+    def _update_candidate(self, index, value):
+        candidate = self._candidate_ranges[index]
+        if math.isfinite(candidate) and abs(value - candidate) <= self.range_tolerance:
+            self._candidate_ranges[index] = (
+                self.stable_update_alpha * value
+                + (1.0 - self.stable_update_alpha) * candidate)
+            self._candidate_counts[index] += 1
+        else:
+            self._candidate_ranges[index] = value
+            self._candidate_counts[index] = 1
+        return self._candidate_counts[index]
+
+    def _accept_as_stable(self, index, value):
+        stable = self._stable_ranges[index]
+        if math.isfinite(stable):
+            self._stable_ranges[index] = (
+                self.stable_update_alpha * value
+                + (1.0 - self.stable_update_alpha) * stable)
+        else:
+            self._stable_ranges[index] = value
+
+    def _filter_range(self, index, value, scan):
+        if not self._is_valid(value, scan):
+            self._candidate_counts[index] = 0
+            return self._invalid_range(scan)
+
+        stable = self._stable_ranges[index]
+        if not math.isfinite(stable):
+            self._accept_as_stable(index, value)
+            self._candidate_ranges[index] = value
+            self._candidate_counts[index] = self.stable_observations
+            return value
+
+        if math.isfinite(stable) and abs(value - stable) <= self.range_tolerance:
+            self._candidate_ranges[index] = value
+            self._candidate_counts[index] = self.stable_observations
+            self._accept_as_stable(index, value)
+            return value
+
+        count = self._update_candidate(index, value)
+
+        sudden_close_return = (
+            math.isfinite(stable)
+            and value < stable - self.sudden_obstacle_distance)
+        required_count = (
+            self.sudden_obstacle_observations
+            if sudden_close_return else self.stable_observations)
+
+        if count >= required_count:
+            self._accept_as_stable(index, value)
+            return value
+
+        return self._invalid_range(scan)
+
+    def _scan_callback(self, scan):
+        if len(self._stable_ranges) != len(scan.ranges):
+            self._reset_state(len(scan.ranges))
+
+        filtered = LaserScan()
+        filtered.header = scan.header
+        filtered.angle_min = scan.angle_min
+        filtered.angle_max = scan.angle_max
+        filtered.angle_increment = scan.angle_increment
+        filtered.time_increment = scan.time_increment
+        filtered.scan_time = scan.scan_time
+        filtered.range_min = scan.range_min
+        filtered.range_max = scan.range_max
+        filtered.ranges = [
+            self._filter_range(index, value, scan)
+            for index, value in enumerate(scan.ranges)
+        ]
+        filtered.intensities = list(scan.intensities)
+
+        self._publisher.publish(filtered)
+
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = DynamicScanFilter()
+    try:
+        rclpy.spin(node)
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()

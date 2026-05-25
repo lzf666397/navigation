@@ -1,5 +1,7 @@
 /home/lzf/chapt9/fishbot_ws/install/fishbot_bringup/lib/fishbot_bringup/odom2tf
+/home/lzf/chapt9/fishbot_ws/install/fishbot_bringup/lib/fishbot_bringup/dynamic_scan_filter
 /home/lzf/chapt9/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/launch/bringup.launch.py
+/home/lzf/chapt9/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/launch/slam_navigation.launch.py
 /home/lzf/chapt9/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/launch/urdf2tf.launch.py
 /home/lzf/chapt9/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/launch/mapping.launch.py
 /home/lzf/chapt9/fishbot_ws/install/fishbot_bringup/share/fishbot_bringup/config/slam_toolbox_mapping.yaml
